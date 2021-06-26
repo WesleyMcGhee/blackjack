@@ -8,24 +8,24 @@
     <title>Black Jack</title>
 </head>
 <body>
-    <h1>Welcome to Black Jack</h1>
+    <h1 id="header">Welcome to Black Jack</h1>
     <div id="container">
-    <div id="right">
-        <h2>Player</h2>
-        <div id="top-right">
-            <div id="bank"></div>
-            <input type="text" id="bet">
+        <div id="right">
+            <h2>Player</h2>
+            <div id="top-right">
+                <div id="bank"></div>
+                    <input type="text" id="bet">
+                </div>
+            <div id="bottom-right">
+                <button id="hit" class="btn">HIT!</button>
+                <button id="stand" class="btn">Stand</button>
+                <button id="double" class="btn">double</button>
+            </div>
         </div>
-        <div id="bottom-right">
-            <button id="hit">HIT!</button>
-            <button id="stand">Stand</button>
-            <button id="double">double</button>
+        <div id="left">
+            <h2>Dealer</h2>
         </div>
     </div>
-    <div id="left">
-        <h2>Dealer</h2>
-    </div>
-</div>
     <script src="app.js"></script>
 </body>
 </html>

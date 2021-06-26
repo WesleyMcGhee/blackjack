@@ -5,14 +5,23 @@ body {
   display: flex;
 }
 #right {
-  height: 100%;
-  width: 50%;
+  height: 91.5vh;
+  width: 50vw;
+  margin: 0px;
+  background-color: gray;
+  border-right: 1px black solid;
+}
+#left {
+  height: 91.5vh;
+  width: 50vw;
   margin: 0px;
   background-color: gray;
 }
-#left {
-  height: 100%;
-  width: 50%;
-  margin: 0px;
-  background-color: gray;
+#header {
+  text-align: center;
+}
+.btn {
+  margin-top: 70vh;
+  font-size: 2em;
+  padding: 10px 20px;
 }
