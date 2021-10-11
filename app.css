@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #e6e6e6;
+}
+#header {
+  font-size: 2rem;
+  background-color: #fa1133;
+  text-align: center;
+  padding: 2vh 1px;
+}
+#container {
+  display: flex;
+  margin-top: 5vh;
+}
+#right {
+  width: 50vw;
+  height: 70vh;
+  border-right: 1px solid black;
+}
+#left {
+  width: 50vw;
+  height: 70vh;
+}
+.player {
+  text-align: center;
+}
